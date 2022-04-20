@@ -64,7 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Hero(
                 tag: osoby[i].name,
                 child: ClipOval(
-                  child: Image.asset(
+                  child: Image.asset( 
                     osoby[i].image,
                     width: 100,
                     height: 100,
